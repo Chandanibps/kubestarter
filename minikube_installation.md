@@ -154,6 +154,8 @@ After minikube installtion we have to clone the github repo.
 -apply a deployment.yml file for nginx server.
 -apply service.yml file.
 -rolling update (update a new version of niginx server for creating a new deployment file)
+-to create a secret.yml file for storing the db passwords like sensitive data.
+-create a config.map file for storing non senstivie data.
 
 
 commands:
