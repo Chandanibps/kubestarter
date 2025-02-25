@@ -149,3 +149,7 @@ minikube delete
 
 That's it! You've successfully installed Minikube on Ubuntu, and you can now start deploying Kubernetes applications for development and testing.
 ```
+After minikube installtion we have to clone the github repo.
+-create a namespace.
+-apply a deployment.yml file for nginx server.
+-apply service.yml file.
