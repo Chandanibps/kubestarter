@@ -153,3 +153,9 @@ After minikube installtion we have to clone the github repo.
 -create a namespace.
 -apply a deployment.yml file for nginx server.
 -apply service.yml file.
+-rolling update (update a new version of niginx server for creating a new deployment file)
+
+
+commands:
+-minikube service --url eks-sample-service -n eks-sample-app
+-kubectl port-forward svc/eks-sample-service -n eks-sample-app 8081:80 --address 0.0.0.0
